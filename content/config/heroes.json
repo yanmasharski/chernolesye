@@ -1,0 +1,782 @@
+{
+	"volga": {
+		"class": "lovchij",
+		"female": false,
+		"texts": {
+			"name": "Вольга",
+			"biography": "Вольга бегает по лесу с волками и по ночам становится серым зверем. Волколаки идут за ним без команды, потому что считают его своим. Он идёт первым и никогда не оглядывается.",
+			"specialty": {
+				"name": "Волколаки",
+				"tooltip": "Волколаки быстрее и злее",
+				"description": "Волколаки в армии Вольги становятся быстрее и сильнее вместе с ростом героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/volga.png",
+			"small": "heroportraits/volgaSmall.png",
+			"specialtySmall": "specicons/volga32.png",
+			"specialtyLarge": "specicons/volga44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "scouting",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "volkolak"
+		}
+	},
+	"dobrynya": {
+		"class": "lovchij",
+		"female": false,
+		"texts": {
+			"name": "Добрыня",
+			"biography": "Добрыня когда-то остановил змея одним ударом щита и меча. С тех пор он не носит шлем, чтобы враги видели его лицо. Он честен и вспыльчив, и в бою всегда впереди своих людей.",
+			"specialty": {
+				"name": "Нападение",
+				"tooltip": "Сильнее удар по врагу",
+				"description": "Навык «Нападение» Добрыни действует сильнее с каждым уровнем героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/dobrynya.png",
+			"small": "heroportraits/dobrynyaSmall.png",
+			"specialtySmall": "specicons/dobrynya32.png",
+			"specialtyLarge": "specicons/dobrynya44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "offence",
+				"level": "basic"
+			},
+			{
+				"skill": "armorer",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "offence"
+		}
+	},
+	"ilya": {
+		"class": "lovchij",
+		"female": false,
+		"texts": {
+			"name": "Илья",
+			"biography": "Илья сидел на печи тридцать лет, а потом встал и пошёл против соловья-разбойника. Старая кольчуга закрывает его с головы до плеч. Он упрям, молчалив и не отступает, пока стоит на ногах.",
+			"specialty": {
+				"name": "Броня",
+				"tooltip": "Крепче броня",
+				"description": "Навык «Броня» Ильи действует сильнее с каждым уровнем героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/ilya.png",
+			"small": "heroportraits/ilyaSmall.png",
+			"specialtySmall": "specicons/ilya32.png",
+			"specialtyLarge": "specicons/ilya44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "armorer",
+				"level": "basic"
+			},
+			{
+				"skill": "leadership",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "armorer"
+		}
+	},
+	"alyosha": {
+		"class": "lovchij",
+		"female": false,
+		"texts": {
+			"name": "Алёша",
+			"biography": "Алёша берёт хитростью там, где другие берут силой. Перо на его шапке знают все охотники, а вот самого Алёшу в лесу никто не слышит. Он улыбается, когда враг считает себя умнее.",
+			"specialty": {
+				"name": "Тактика",
+				"tooltip": "Лучше расстановка",
+				"description": "Навык «Тактика» Алёши действует сильнее с каждым уровнем героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/alyosha.png",
+			"small": "heroportraits/alyoshaSmall.png",
+			"specialtySmall": "specicons/alyosha32.png",
+			"specialtyLarge": "specicons/alyosha44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "tactics",
+				"level": "basic"
+			},
+			{
+				"skill": "archery",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "tactics"
+		}
+	},
+	"krak": {
+		"class": "lovchij",
+		"female": false,
+		"texts": {
+			"name": "Крак",
+			"biography": "Крак основал город на холме и сам выбирал каждое бревно в его стене. На голове у него простой железный венец, на плечах тёмно-красный плащ. Люди идут за ним спокойно, потому что он ни разу не соврал им.",
+			"specialty": {
+				"name": "Лидерство",
+				"tooltip": "Дружина смелее",
+				"description": "Навык «Лидерство» Крака действует сильнее с каждым уровнем героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/krak.png",
+			"small": "heroportraits/krakSmall.png",
+			"specialtySmall": "specicons/krak32.png",
+			"specialtyLarge": "specicons/krak44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "leadership",
+				"level": "basic"
+			},
+			{
+				"skill": "logistics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "leadership"
+		}
+	},
+	"skuba": {
+		"class": "lovchij",
+		"female": false,
+		"texts": {
+			"name": "Скуба",
+			"biography": "Скуба маленького роста, но хитрее любого великана. Его капюшон заштопан в десяти местах, и в каждой заплатке спрятана какая-нибудь уловка. Злыдни смеются над его шутками и идут за него в огонь.",
+			"specialty": {
+				"name": "Злыдни",
+				"tooltip": "Злыдни сильнее",
+				"description": "Злыдни в армии Скубы становятся сильнее и быстрее вместе с ростом героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/skuba.png",
+			"small": "heroportraits/skubaSmall.png",
+			"specialtySmall": "specicons/skuba32.png",
+			"specialtyLarge": "specicons/skuba44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "tactics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "zlydenj"
+		}
+	},
+	"mikula": {
+		"class": "lovchij",
+		"female": false,
+		"texts": {
+			"name": "Микула",
+			"biography": "Микула пашет землю плугом, который не поднимут и десять человек. Он любит хлеб, песни и свою семью, а воевать идёт только когда пахать больше нельзя. Золото у него появляется там, где ступает его сапог.",
+			"specialty": {
+				"name": "Имения",
+				"tooltip": "Земля даёт больше золота",
+				"description": "Навык «Имения» Микулы действует сильнее с каждым уровнем героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/mikula.png",
+			"small": "heroportraits/mikulaSmall.png",
+			"specialtySmall": "specicons/mikula32.png",
+			"specialtyLarge": "specicons/mikula44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "estates",
+				"level": "basic"
+			},
+			{
+				"skill": "pathfinding",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "estates"
+		}
+	},
+	"svyatogor": {
+		"class": "lovchij",
+		"female": false,
+		"texts": {
+			"name": "Святогор",
+			"biography": "Святогор такой большой, что мох растёт на его плечах, а птицы вьют гнёзда в бороде. Земля не выдерживает его шагов, и он ходит осторожно. Вии признают в нём старшего и просыпаются по его слову.",
+			"specialty": {
+				"name": "Вии",
+				"tooltip": "Вии сильнее",
+				"description": "Вии в армии Святогора становятся сильнее вместе с ростом героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/svyatogor.png",
+			"small": "heroportraits/svyatogorSmall.png",
+			"specialtySmall": "specicons/svyatogor32.png",
+			"specialtyLarge": "specicons/svyatogor44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "offence",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "vij"
+		}
+	},
+	"vseslav": {
+		"class": "vedun",
+		"female": false,
+		"texts": {
+			"name": "Всеслав",
+			"biography": "Всеслав родился в рубашке и с тех пор видит дальше, чем положено человеку. Синий плащ у него от матери, а метка на лбу от отца. Он знает, где кончается тропа, раньше, чем доходит до её середины.",
+			"specialty": {
+				"name": "Разведка",
+				"tooltip": "Дальше обзор на карте",
+				"description": "Навык «Разведка» Всеслава действует сильнее с каждым уровнем героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/vseslav.png",
+			"small": "heroportraits/vseslavSmall.png",
+			"specialtySmall": "specicons/vseslav32.png",
+			"specialtyLarge": "specicons/vseslav44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "scouting",
+				"level": "basic"
+			},
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "scouting"
+		},
+		"spellbook": [
+			"slow"
+		]
+	},
+	"twardowski": {
+		"class": "vedun",
+		"female": false,
+		"texts": {
+			"name": "Твардовский",
+			"biography": "Твардовский давно подписал договор с чёрным гостем и не жалеет об этом. Один глаз у него горит красным, а воротник всегда поднят. Он смеётся, когда заклинание получается лучше, чем он ожидал.",
+			"specialty": {
+				"name": "Мистицизм",
+				"tooltip": "Мана восстанавливается быстрее",
+				"description": "Навык «Мистицизм» Твардовского действует сильнее с каждым уровнем героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/twardowski.png",
+			"small": "heroportraits/twardowskiSmall.png",
+			"specialtySmall": "specicons/twardowski32.png",
+			"specialtyLarge": "specicons/twardowski44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "basic"
+			},
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "mysticism"
+		},
+		"spellbook": [
+			"slow"
+		]
+	},
+	"oleg": {
+		"class": "vedun",
+		"female": false,
+		"texts": {
+			"name": "Олег",
+			"biography": "Олег слушает то, что говорят вороны, и не торопится с ответом. Меховая шапка и змея на застёжке достались ему от вещего предка. Он знает, чем всё кончится, но всё равно доводит дело до конца.",
+			"specialty": {
+				"name": "Мудрость",
+				"tooltip": "Изучает заклинания старших кругов",
+				"description": "Навык «Мудрость» Олега действует сильнее с каждым уровнем героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/oleg.png",
+			"small": "heroportraits/olegSmall.png",
+			"specialtySmall": "specicons/oleg32.png",
+			"specialtyLarge": "specicons/oleg44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "wisdom",
+				"level": "basic"
+			},
+			{
+				"skill": "scholar",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "wisdom"
+		},
+		"spellbook": [
+			"slow"
+		]
+	},
+	"vasilisa": {
+		"class": "vedun",
+		"female": true,
+		"texts": {
+			"name": "Василиса",
+			"biography": "Василиса училась у Бабы-яги и ушла от неё в тот день, когда научилась всему. Ворон на её плече докладывает ей обо всём, что происходит в лесу. Ведьмы слушаются её без слов.",
+			"specialty": {
+				"name": "Ведьмы",
+				"tooltip": "Ведьмы сильнее",
+				"description": "Ведьмы в армии Василисы становятся сильнее вместе с ростом героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/vasilisa.png",
+			"small": "heroportraits/vasilisaSmall.png",
+			"specialtySmall": "specicons/vasilisa32.png",
+			"specialtyLarge": "specicons/vasilisa44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "vedma"
+		},
+		"spellbook": [
+			"slow"
+		]
+	},
+	"marya": {
+		"class": "vedun",
+		"female": true,
+		"texts": {
+			"name": "Марья",
+			"biography": "Марья взяла меч в одну руку и молнию в другую и с тех пор не знает усталости. Её заклинания бьют быстрее, чем враг успевает поднять щит. Она смеётся над теми, кто называет колдовство женским делом.",
+			"specialty": {
+				"name": "Колдовство",
+				"tooltip": "Сильнее заклинания",
+				"description": "Навык «Колдовство» Марьи действует сильнее с каждым уровнем героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/marya.png",
+			"small": "heroportraits/maryaSmall.png",
+			"specialtySmall": "specicons/marya32.png",
+			"specialtyLarge": "specicons/marya44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "sorcery",
+				"level": "basic"
+			},
+			{
+				"skill": "tactics",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"secondary": "sorcery"
+		},
+		"spellbook": [
+			"slow"
+		]
+	},
+	"bogomil": {
+		"class": "vedun",
+		"female": false,
+		"texts": {
+			"name": "Богомил",
+			"biography": "Богомил живёт под капюшоном и редко открывает лицо. На его посохе висят кости птиц, на шее кости зверей. Волхвы слушаются его слов и молчат, когда он молчит.",
+			"specialty": {
+				"name": "Волхвы",
+				"tooltip": "Волхвы сильнее",
+				"description": "Волхвы в армии Богомила становятся сильнее вместе с ростом героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/bogomil.png",
+			"small": "heroportraits/bogomilSmall.png",
+			"specialtySmall": "specicons/bogomil32.png",
+			"specialtyLarge": "specicons/bogomil44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "mysticism",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "volkhv"
+		},
+		"spellbook": [
+			"slow"
+		]
+	},
+	"berendey": {
+		"class": "vedun",
+		"female": false,
+		"texts": {
+			"name": "Берендей",
+			"biography": "Берендей когда-то был царём, пока лес не заколдовал его. Дубовый венок на его голове с тех пор не вянет. Лешие признают его своим, и деревья расступаются там, где он идёт.",
+			"specialty": {
+				"name": "Лешие",
+				"tooltip": "Лешие сильнее",
+				"description": "Лешие в армии Берендея становятся сильнее вместе с ростом героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/berendey.png",
+			"small": "heroportraits/berendeySmall.png",
+			"specialtySmall": "specicons/berendey32.png",
+			"specialtyLarge": "specicons/berendey44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "earthMagic",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "leshij"
+		},
+		"spellbook": [
+			"slow"
+		]
+	},
+	"yadviga": {
+		"class": "vedun",
+		"female": true,
+		"texts": {
+			"name": "Ядвига",
+			"biography": "Ядвига живёт на болоте дольше, чем помнят самые старые рыбаки. Волосы у неё как тина, а глаза как застывшая вода. Болотники приходят к ней сами и просят остаться.",
+			"specialty": {
+				"name": "Болотники",
+				"tooltip": "Болотники сильнее",
+				"description": "Болотники в армии Ядвиги становятся сильнее вместе с ростом героя."
+			}
+		},
+		"images": {
+			"large": "heroportraits/yadviga.png",
+			"small": "heroportraits/yadvigaSmall.png",
+			"specialtySmall": "specicons/yadviga32.png",
+			"specialtyLarge": "specicons/yadviga44.png"
+		},
+		"army": [
+			{
+				"creature": "zlydenj",
+				"min": 15,
+				"max": 25
+			},
+			{
+				"creature": "bolotnik",
+				"min": 6,
+				"max": 9
+			},
+			{
+				"creature": "volkolak",
+				"min": 3,
+				"max": 5
+			}
+		],
+		"skills": [
+			{
+				"skill": "waterMagic",
+				"level": "basic"
+			}
+		],
+		"specialty": {
+			"creature": "bolotnik"
+		},
+		"spellbook": [
+			"slow"
+		]
+	}
+}

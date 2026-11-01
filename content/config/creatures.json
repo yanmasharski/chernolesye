@@ -1,0 +1,726 @@
+{
+	"zlydenj": {
+		"name": {
+			"singular": "Злыдень",
+			"plural": "Злыдни"
+		},
+		"level": 1,
+		"faction": "chernolesye",
+		"attack": 4,
+		"defense": 3,
+		"hitPoints": 6,
+		"speed": 5,
+		"damage": {
+			"min": 1,
+			"max": 3
+		},
+		"growth": 16,
+		"cost": {
+			"gold": 50
+		},
+		"aiValue": 85,
+		"fightValue": 85,
+		"advMapAmount": {
+			"min": 20,
+			"max": 50
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/zlydenj",
+			"map": "creatures/map/zlydenj",
+			"iconSmall": "creatureicons/zlydenjSmall.png",
+			"iconLarge": "creatureicons/zlydenj.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {},
+		"upgrades": [
+			"starshijZlydenj"
+		]
+	},
+	"starshijZlydenj": {
+		"name": {
+			"singular": "Старший злыдень",
+			"plural": "Старшие злыдни"
+		},
+		"level": 1,
+		"faction": "chernolesye",
+		"attack": 5,
+		"defense": 4,
+		"hitPoints": 7,
+		"speed": 6,
+		"damage": {
+			"min": 1,
+			"max": 3
+		},
+		"growth": 16,
+		"cost": {
+			"gold": 65
+		},
+		"aiValue": 110,
+		"fightValue": 110,
+		"advMapAmount": {
+			"min": 20,
+			"max": 50
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/starshijZlydenj",
+			"map": "creatures/map/starshijZlydenj",
+			"iconSmall": "creatureicons/starshijZlydenjSmall.png",
+			"iconLarge": "creatureicons/starshijZlydenj.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"mischief": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "misfortune",
+				"val": 15,
+				"description": "{Пакость}\nС вероятностью 15% после удара накладывает на врага невезение."
+			}
+		}
+	},
+	"bolotnik": {
+		"name": {
+			"singular": "Болотник",
+			"plural": "Болотники"
+		},
+		"level": 2,
+		"faction": "chernolesye",
+		"attack": 7,
+		"defense": 5,
+		"hitPoints": 15,
+		"speed": 6,
+		"damage": {
+			"min": 3,
+			"max": 4
+		},
+		"growth": 9,
+		"cost": {
+			"gold": 130
+		},
+		"aiValue": 221,
+		"fightValue": 221,
+		"advMapAmount": {
+			"min": 15,
+			"max": 40
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/bolotnik",
+			"map": "creatures/map/bolotnik",
+			"iconSmall": "creatureicons/bolotnikSmall.png",
+			"iconLarge": "creatureicons/bolotnik.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"quagmire": {
+				"type": "SPELLCASTER",
+				"subtype": "quicksand",
+				"val": 1,
+				"description": "{Трясина}\nМожет дважды за бой создать на поле топкую трясину, которая задерживает врагов."
+			},
+			"quagmireCasts": {
+				"type": "CASTS",
+				"val": 2
+			}
+		},
+		"upgrades": [
+			"vodyanoj"
+		]
+	},
+	"vodyanoj": {
+		"name": {
+			"singular": "Водяной",
+			"plural": "Водяные"
+		},
+		"level": 2,
+		"faction": "chernolesye",
+		"attack": 7,
+		"defense": 6,
+		"hitPoints": 18,
+		"speed": 7,
+		"damage": {
+			"min": 3,
+			"max": 5
+		},
+		"growth": 9,
+		"cost": {
+			"gold": 175
+		},
+		"aiValue": 298,
+		"fightValue": 298,
+		"advMapAmount": {
+			"min": 15,
+			"max": 40
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/vodyanoj",
+			"map": "creatures/map/vodyanoj",
+			"iconSmall": "creatureicons/vodyanojSmall.png",
+			"iconLarge": "creatureicons/vodyanoj.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"whirlpool": {
+				"type": "SPELLCASTER",
+				"subtype": "quicksand",
+				"val": 2,
+				"description": "{Омут}\nМожет дважды за бой утянуть врагов в топь: она сильнее, чем у болотника."
+			},
+			"whirlpoolCasts": {
+				"type": "CASTS",
+				"val": 2
+			}
+		}
+	},
+	"volkolak": {
+		"name": {
+			"singular": "Волколак",
+			"plural": "Волколаки"
+		},
+		"level": 3,
+		"faction": "chernolesye",
+		"attack": 9,
+		"defense": 8,
+		"hitPoints": 22,
+		"speed": 8,
+		"damage": {
+			"min": 2,
+			"max": 6
+		},
+		"growth": 7,
+		"cost": {
+			"gold": 240
+		},
+		"aiValue": 408,
+		"fightValue": 408,
+		"advMapAmount": {
+			"min": 10,
+			"max": 30
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/volkolak",
+			"map": "creatures/map/volkolak",
+			"iconSmall": "creatureicons/volkolakSmall.png",
+			"iconLarge": "creatureicons/volkolak.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"leap": {
+				"type": "JOUSTING",
+				"val": 5,
+				"description": "{Прыжок}\nУрон растёт на 5% за каждую клетку, которую волколак пробежал перед ударом."
+			}
+		},
+		"upgrades": [
+			"starshijVolkolak"
+		]
+	},
+	"starshijVolkolak": {
+		"name": {
+			"singular": "Старший волколак",
+			"plural": "Старшие волколаки"
+		},
+		"level": 3,
+		"faction": "chernolesye",
+		"attack": 10,
+		"defense": 9,
+		"hitPoints": 26,
+		"speed": 9,
+		"damage": {
+			"min": 3,
+			"max": 7
+		},
+		"growth": 7,
+		"cost": {
+			"gold": 290
+		},
+		"aiValue": 493,
+		"fightValue": 493,
+		"advMapAmount": {
+			"min": 10,
+			"max": 30
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/starshijVolkolak",
+			"map": "creatures/map/starshijVolkolak",
+			"iconSmall": "creatureicons/starshijVolkolakSmall.png",
+			"iconLarge": "creatureicons/starshijVolkolak.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"leap": {
+				"type": "JOUSTING",
+				"val": 8,
+				"description": "{Прыжок}\nУрон растёт на 8% за каждую клетку, которую волколак пробежал перед ударом."
+			}
+		}
+	},
+	"leshij": {
+		"name": {
+			"singular": "Леший",
+			"plural": "Лешие"
+		},
+		"level": 4,
+		"faction": "chernolesye",
+		"attack": 10,
+		"defense": 8,
+		"hitPoints": 28,
+		"speed": 6,
+		"damage": {
+			"min": 7,
+			"max": 9
+		},
+		"growth": 4,
+		"cost": {
+			"gold": 330
+		},
+		"aiValue": 561,
+		"fightValue": 561,
+		"advMapAmount": {
+			"min": 8,
+			"max": 20
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/leshij",
+			"map": "creatures/map/leshij",
+			"iconSmall": "creatureicons/leshijSmall.png",
+			"iconLarge": "creatureicons/leshij.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"fromThicket": {
+				"type": "BLOCKS_RETALIATION",
+				"description": "{Из чащи}\nВрага не достать в ответ: леший бьёт и скрывается в чаще."
+			},
+			"fog": {
+				"type": "SPELLCASTER",
+				"subtype": "sorrow",
+				"val": 1,
+				"description": "{Туман}\nОдин раз за бой насылает на врага печаль: падает боевой дух."
+			},
+			"fogCasts": {
+				"type": "CASTS",
+				"val": 1
+			}
+		},
+		"upgrades": [
+			"starshijLeshij"
+		]
+	},
+	"starshijLeshij": {
+		"name": {
+			"singular": "Старший леший",
+			"plural": "Старшие лешие"
+		},
+		"level": 4,
+		"faction": "chernolesye",
+		"attack": 12,
+		"defense": 9,
+		"hitPoints": 32,
+		"speed": 7,
+		"damage": {
+			"min": 7,
+			"max": 9
+		},
+		"growth": 4,
+		"cost": {
+			"gold": 380
+		},
+		"aiValue": 646,
+		"fightValue": 646,
+		"advMapAmount": {
+			"min": 8,
+			"max": 20
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/starshijLeshij",
+			"map": "creatures/map/starshijLeshij",
+			"iconSmall": "creatureicons/starshijLeshijSmall.png",
+			"iconLarge": "creatureicons/starshijLeshij.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"fromThicket": {
+				"type": "BLOCKS_RETALIATION",
+				"description": "{Из чащи}\nВрага не достать в ответ: леший бьёт и скрывается в чаще."
+			},
+			"forestLord": {
+				"type": "SPELL_RESISTANCE_AURA",
+				"val": 20,
+				"description": "{Хозяин леса}\nСоседние союзники на 20% лучше сопротивляются заклинаниям."
+			},
+			"fog": {
+				"type": "SPELLCASTER",
+				"subtype": "sorrow",
+				"val": 2,
+				"description": "{Туман}\nДважды за бой насылает на врага печаль: падает боевой дух."
+			},
+			"fogCasts": {
+				"type": "CASTS",
+				"val": 2
+			}
+		}
+	},
+	"volkhv": {
+		"name": {
+			"singular": "Волхв",
+			"plural": "Волхвы"
+		},
+		"level": 5,
+		"faction": "chernolesye",
+		"attack": 13,
+		"defense": 11,
+		"hitPoints": 38,
+		"speed": 6,
+		"damage": {
+			"min": 10,
+			"max": 14
+		},
+		"growth": 3,
+		"cost": {
+			"gold": 500
+		},
+		"aiValue": 850,
+		"fightValue": 850,
+		"advMapAmount": {
+			"min": 6,
+			"max": 16
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/volkhv",
+			"map": "creatures/map/volkhv",
+			"iconSmall": "creatureicons/volkhvSmall.png",
+			"iconLarge": "creatureicons/volkhv.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"canShoot": {
+				"type": "SHOOTER",
+				"description": "{Заговор}\nСтреляет из-за спины союзников и не слабеет в ближнем бою."
+			},
+			"noMeleePenalty": {
+				"type": "NO_MELEE_PENALTY"
+			}
+		},
+		"upgrades": [
+			"starshijVolkhv"
+		],
+		"shots": 12
+	},
+	"starshijVolkhv": {
+		"name": {
+			"singular": "Старший волхв",
+			"plural": "Старшие волхвы"
+		},
+		"level": 5,
+		"faction": "chernolesye",
+		"attack": 14,
+		"defense": 12,
+		"hitPoints": 42,
+		"speed": 7,
+		"damage": {
+			"min": 12,
+			"max": 16
+		},
+		"growth": 3,
+		"cost": {
+			"gold": 600
+		},
+		"aiValue": 1020,
+		"fightValue": 1020,
+		"advMapAmount": {
+			"min": 6,
+			"max": 16
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/starshijVolkhv",
+			"map": "creatures/map/starshijVolkhv",
+			"iconSmall": "creatureicons/starshijVolkhvSmall.png",
+			"iconLarge": "creatureicons/starshijVolkhv.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"canShoot": {
+				"type": "SHOOTER",
+				"description": "{Заговор}\nСтреляет из-за спины союзников и не слабеет в ближнем бою."
+			},
+			"noMeleePenalty": {
+				"type": "NO_MELEE_PENALTY"
+			},
+			"blessing": {
+				"type": "ENCHANTER",
+				"subtype": "bless",
+				"val": 1,
+				"addInfo": 3,
+				"description": "{Благословение}\nКаждые три раунда благословляет союзников."
+			}
+		},
+		"shots": 12
+	},
+	"vedma": {
+		"name": {
+			"singular": "Ведьма",
+			"plural": "Ведьмы"
+		},
+		"level": 6,
+		"faction": "chernolesye",
+		"attack": 14,
+		"defense": 15,
+		"hitPoints": 85,
+		"speed": 8,
+		"damage": {
+			"min": 14,
+			"max": 19
+		},
+		"growth": 2,
+		"cost": {
+			"gold": 900
+		},
+		"aiValue": 1530,
+		"fightValue": 1530,
+		"advMapAmount": {
+			"min": 4,
+			"max": 10
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/vedma",
+			"map": "creatures/map/vedma",
+			"iconSmall": "creatureicons/vedmaSmall.png",
+			"iconLarge": "creatureicons/vedma.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"canFly": {
+				"type": "FLYING",
+				"description": "{Полёт}\nЛетит над полем боя и пересекает препятствия."
+			},
+			"evilEye": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "curse",
+				"val": 25,
+				"description": "{Сглаз}\nС вероятностью 25% после удара проклинает врага."
+			}
+		},
+		"upgrades": [
+			"babaYaga"
+		]
+	},
+	"babaYaga": {
+		"name": {
+			"singular": "Баба-яга",
+			"plural": "Бабы-яги"
+		},
+		"level": 6,
+		"faction": "chernolesye",
+		"attack": 15,
+		"defense": 16,
+		"hitPoints": 95,
+		"speed": 9,
+		"damage": {
+			"min": 16,
+			"max": 21
+		},
+		"growth": 2,
+		"cost": {
+			"gold": 1100
+		},
+		"aiValue": 1870,
+		"fightValue": 1870,
+		"advMapAmount": {
+			"min": 4,
+			"max": 10
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/babaYaga",
+			"map": "creatures/map/babaYaga",
+			"iconSmall": "creatureicons/babaYagaSmall.png",
+			"iconLarge": "creatureicons/babaYaga.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"canFly": {
+				"type": "FLYING",
+				"description": "{Полёт}\nЛетит над полем боя и пересекает препятствия."
+			},
+			"evilEye": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "curse",
+				"val": 30,
+				"description": "{Сглаз}\nС вероятностью 30% после удара проклинает врага."
+			},
+			"weaken": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "weakness",
+				"val": 30,
+				"description": "{Лихорадка}\nС вероятностью 30% после удара ослабляет врага."
+			}
+		}
+	},
+	"vij": {
+		"name": {
+			"singular": "Вий",
+			"plural": "Вии"
+		},
+		"level": 7,
+		"faction": "chernolesye",
+		"attack": 20,
+		"defense": 17,
+		"hitPoints": 180,
+		"speed": 7,
+		"damage": {
+			"min": 35,
+			"max": 40
+		},
+		"growth": 1,
+		"cost": {
+			"gold": 2000
+		},
+		"aiValue": 3400,
+		"fightValue": 3400,
+		"advMapAmount": {
+			"min": 2,
+			"max": 6
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/vij",
+			"map": "creatures/map/vij",
+			"iconSmall": "creatureicons/vijSmall.png",
+			"iconLarge": "creatureicons/vij.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"heavyGaze": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "weakness",
+				"val": 25,
+				"description": "{Тяжёлый взгляд}\nС вероятностью 25% после удара ослабляет врага."
+			}
+		},
+		"upgrades": [
+			"prosnuvshijsyaVij"
+		]
+	},
+	"prosnuvshijsyaVij": {
+		"name": {
+			"singular": "Пробуждённый Вий",
+			"plural": "Пробуждённые Вии"
+		},
+		"level": 7,
+		"faction": "chernolesye",
+		"attack": 26,
+		"defense": 20,
+		"hitPoints": 230,
+		"speed": 8,
+		"damage": {
+			"min": 38,
+			"max": 45
+		},
+		"growth": 1,
+		"cost": {
+			"gold": 3000
+		},
+		"aiValue": 5100,
+		"fightValue": 5100,
+		"advMapAmount": {
+			"min": 2,
+			"max": 6
+		},
+		"sound": {},
+		"graphics": {
+			"animation": "creatures/prosnuvshijsyaVij",
+			"map": "creatures/map/prosnuvshijsyaVij",
+			"iconSmall": "creatureicons/prosnuvshijsyaVijSmall.png",
+			"iconLarge": "creatureicons/prosnuvshijsyaVij.png",
+			"timeBetweenFidgets": 6.0,
+			"animationTime": {
+				"walk": 0.5,
+				"idle": 10.0,
+				"attack": 0.5
+			}
+		},
+		"abilities": {
+			"openGaze": {
+				"type": "SPELL_AFTER_ATTACK",
+				"subtype": "weakness",
+				"val": 40,
+				"description": "{Открытый взгляд}\nС вероятностью 40% после удара ослабляет врага."
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+{
+	"basepath": "creatures/map/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"bolotnik.png"
+			]
+		},
+		{
+			"group": 1,
+			"frames": [
+				"bolotnik.png"
+			]
+		},
+		{
+			"group": 2,
+			"frames": [
+				"bolotnik.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"bolotnik.png"
+			]
+		}
+	]
+}

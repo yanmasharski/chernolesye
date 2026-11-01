@@ -1,0 +1,29 @@
+{
+	"basepath": "creatures/map/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"starshijVolkolak.png"
+			]
+		},
+		{
+			"group": 1,
+			"frames": [
+				"starshijVolkolak.png"
+			]
+		},
+		{
+			"group": 2,
+			"frames": [
+				"starshijVolkolak.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"starshijVolkolak.png"
+			]
+		}
+	]
+}

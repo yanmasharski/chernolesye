@@ -1,0 +1,118 @@
+{
+	"basepath": "creatures/zlydenj/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"g0_0.png",
+				"g0_1.png",
+				"g0_2.png",
+				"g0_3.png"
+			]
+		},
+		{
+			"group": 1,
+			"frames": [
+				"g1_0.png"
+			]
+		},
+		{
+			"group": 2,
+			"frames": [
+				"g2_0.png",
+				"g2_1.png",
+				"g2_2.png",
+				"g2_3.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"g3_0.png",
+				"g3_1.png"
+			]
+		},
+		{
+			"group": 4,
+			"frames": [
+				"g4_0.png"
+			]
+		},
+		{
+			"group": 5,
+			"frames": [
+				"g5_0.png",
+				"g5_1.png",
+				"g5_2.png",
+				"g5_3.png",
+				"g5_4.png"
+			]
+		},
+		{
+			"group": 7,
+			"frames": [
+				"g7_0.png"
+			]
+		},
+		{
+			"group": 8,
+			"frames": [
+				"g8_0.png"
+			]
+		},
+		{
+			"group": 11,
+			"frames": [
+				"g11_0.png",
+				"g11_1.png",
+				"g11_2.png",
+				"g11_3.png"
+			]
+		},
+		{
+			"group": 12,
+			"frames": [
+				"g12_0.png",
+				"g12_1.png",
+				"g12_2.png",
+				"g12_3.png"
+			]
+		},
+		{
+			"group": 13,
+			"frames": [
+				"g13_0.png",
+				"g13_1.png",
+				"g13_2.png",
+				"g13_3.png"
+			]
+		},
+		{
+			"group": 14,
+			"frames": [
+				"g14_0.png",
+				"g14_1.png",
+				"g14_2.png",
+				"g14_3.png"
+			]
+		},
+		{
+			"group": 15,
+			"frames": [
+				"g15_0.png",
+				"g15_1.png",
+				"g15_2.png",
+				"g15_3.png"
+			]
+		},
+		{
+			"group": 16,
+			"frames": [
+				"g16_0.png",
+				"g16_1.png",
+				"g16_2.png",
+				"g16_3.png"
+			]
+		}
+	]
+}

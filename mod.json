@@ -1,0 +1,34 @@
+{
+	"name": "Chernolesye",
+	"description": "Мрачный славянский город: лес, болота и нечисть.",
+	"author": "Yan",
+	"version": "0.1.0",
+	"licenseName": "Creative Commons Attribution-NonCommercial-ShareAlike 4.0",
+	"licenseURL": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+	"modType": "Town",
+	"contact": "",
+	"compatibility": {
+		"min": "1.7.0"
+	},
+	"factions": [
+		"config/faction.json"
+	],
+	"creatures": [
+		"config/creatures.json"
+	],
+	"heroes": [
+		"config/heroes.json"
+	],
+	"heroClasses": [
+		"config/classes.json"
+	],
+	"language": "russian",
+	"english": {
+		"name": "Czarnolesie",
+		"description": "A gloomy Slavic town: forest, swamps and evil spirits.",
+		"author": "Yan",
+		"translations": [
+			"translation/english.json"
+		]
+	}
+}

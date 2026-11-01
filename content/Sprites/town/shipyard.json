@@ -1,0 +1,11 @@
+{
+	"basepath": "town/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"shipyard.png"
+			]
+		}
+	]
+}

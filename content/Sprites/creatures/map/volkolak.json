@@ -1,0 +1,29 @@
+{
+	"basepath": "creatures/map/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"volkolak.png"
+			]
+		},
+		{
+			"group": 1,
+			"frames": [
+				"volkolak.png"
+			]
+		},
+		{
+			"group": 2,
+			"frames": [
+				"volkolak.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"volkolak.png"
+			]
+		}
+	]
+}

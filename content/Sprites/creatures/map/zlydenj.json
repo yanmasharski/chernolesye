@@ -1,0 +1,29 @@
+{
+	"basepath": "creatures/map/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"zlydenj.png"
+			]
+		},
+		{
+			"group": 1,
+			"frames": [
+				"zlydenj.png"
+			]
+		},
+		{
+			"group": 2,
+			"frames": [
+				"zlydenj.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"zlydenj.png"
+			]
+		}
+	]
+}

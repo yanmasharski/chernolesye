@@ -1,0 +1,29 @@
+{
+	"basepath": "creatures/map/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"prosnuvshijsyaVij.png"
+			]
+		},
+		{
+			"group": 1,
+			"frames": [
+				"prosnuvshijsyaVij.png"
+			]
+		},
+		{
+			"group": 2,
+			"frames": [
+				"prosnuvshijsyaVij.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"prosnuvshijsyaVij.png"
+			]
+		}
+	]
+}

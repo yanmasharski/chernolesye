@@ -1,0 +1,1393 @@
+{
+	"chernolesye": {
+		"name": "Чернолесье",
+		"alignment": "evil",
+		"nativeTerrain": "swamp",
+		"description": "Мрачный славянский лес, болота и нечисть.",
+		"town": {
+			"musicTheme": [
+				"music/FortressTown"
+			],
+			"names": [
+				"Топь",
+				"Гнилой Угол",
+				"Темноборье",
+				"Чёрная Ольха",
+				"Мшанка",
+				"Волчья Падь",
+				"Лихоборск",
+				"Болотный Яр",
+				"Навь",
+				"Дубрава"
+			],
+			"hallSlots": [
+				[
+					[
+						"villageHall",
+						"townHall",
+						"cityHall",
+						"capitol"
+					],
+					[
+						"fort",
+						"citadel",
+						"castle"
+					],
+					[
+						"tavern"
+					],
+					[
+						"blacksmith"
+					]
+				],
+				[
+					[
+						"marketplace",
+						"resourceSilo"
+					],
+					[
+						"mageGuild1",
+						"mageGuild2",
+						"mageGuild3",
+						"mageGuild4"
+					],
+					[
+						"shipyard"
+					],
+					[
+						"special1"
+					]
+				],
+				[
+					[
+						"mageGuild5"
+					],
+					[
+						"special2"
+					],
+					[
+						"grail"
+					]
+				],
+				[
+					[
+						"dwellingLvl1",
+						"dwellingUpLvl1"
+					],
+					[
+						"dwellingLvl2",
+						"dwellingUpLvl2"
+					],
+					[
+						"dwellingLvl3",
+						"dwellingUpLvl3"
+					],
+					[
+						"dwellingLvl4",
+						"dwellingUpLvl4"
+					]
+				],
+				[
+					[
+						"dwellingLvl5",
+						"dwellingUpLvl5"
+					],
+					[
+						"dwellingLvl6",
+						"dwellingUpLvl6"
+					],
+					[
+						"dwellingLvl7",
+						"dwellingUpLvl7"
+					]
+				]
+			],
+			"creatures": [
+				[
+					"zlydenj",
+					"starshijZlydenj"
+				],
+				[
+					"bolotnik",
+					"vodyanoj"
+				],
+				[
+					"volkolak",
+					"starshijVolkolak"
+				],
+				[
+					"leshij",
+					"starshijLeshij"
+				],
+				[
+					"volkhv",
+					"starshijVolkhv"
+				],
+				[
+					"vedma",
+					"babaYaga"
+				],
+				[
+					"vij",
+					"prosnuvshijsyaVij"
+				]
+			],
+			"horde": [
+				-1,
+				-1
+			],
+			"mageGuild": 5,
+			"primaryResource": "ore",
+			"defaultTavern": 5,
+			"tavern": {
+				"lovchij": 6,
+				"vedun": 6
+			},
+			"buildings": {
+				"mageGuild1": {
+					"name": "Колодец снов, ур. 1",
+					"description": "Старый сруб колодца, из которого по ночам поднимаются тихие голоса. Колодец снов позволяет героям изучать хранящиеся в нём заклинания.",
+					"cost": {
+						"wood": 5,
+						"ore": 5,
+						"gold": 2000
+					}
+				},
+				"mageGuild2": {
+					"name": "Колодец снов, ур. 2",
+					"description": "К колодцу добавились резные столбы, и голоса стали разборчивее. Колодец снов позволяет героям изучать хранящиеся в нём заклинания.",
+					"cost": {
+						"wood": 5,
+						"ore": 5,
+						"gems": 4,
+						"crystal": 4,
+						"gold": 1000
+					}
+				},
+				"mageGuild3": {
+					"name": "Колодец снов, ур. 3",
+					"description": "Вокруг колодца зажгли фонари, и вода засветилась изнутри. Колодец снов позволяет героям изучать хранящиеся в нём заклинания.",
+					"cost": {
+						"wood": 5,
+						"ore": 5,
+						"gems": 6,
+						"crystal": 6,
+						"gold": 1000
+					}
+				},
+				"mageGuild4": {
+					"name": "Колодец снов, ур. 4",
+					"description": "Над колодцем поднялся тотем с солнечными знаками, а свет в воде окреп. Колодец снов позволяет героям изучать хранящиеся в нём заклинания.",
+					"cost": {
+						"wood": 5,
+						"ore": 5,
+						"gems": 8,
+						"crystal": 8,
+						"gold": 1000
+					}
+				},
+				"mageGuild5": {
+					"name": "Колодец снов, ур. 5",
+					"description": "Тотем обвила спираль света, и колодец показывает видения даже днём. Колодец снов позволяет героям изучать хранящиеся в нём заклинания.",
+					"cost": {
+						"wood": 5,
+						"ore": 5,
+						"gems": 10,
+						"crystal": 10,
+						"gold": 1000
+					}
+				},
+				"villageHall": {
+					"name": "Кострище",
+					"description": "Небольшой костёр в кольце камней: у него решают, что строить дальше. Кострище позволяет строить здания и приносит 500 золота в день."
+				},
+				"townHall": {
+					"name": "Большой костёр",
+					"description": "Костёр разросся, вокруг встали столбы с рогами оленей. Большой костёр позволяет строить здания и приносит 1000 золота в день.",
+					"cost": {
+						"gold": 2500
+					}
+				},
+				"cityHall": {
+					"name": "Родовой очаг",
+					"description": "Вокруг костра вырос бревенчатый зал, где собирается весь род. Родовой очаг позволяет строить здания и приносит 2000 золота в день.",
+					"cost": {
+						"gold": 5000
+					}
+				},
+				"capitol": {
+					"name": "Вечный огонь",
+					"description": "Огонь в центре зала никогда не гаснет, а над крышей висят шкуры-знамёна. Вечный огонь приносит 4000 золота в день.",
+					"cost": {
+						"gold": 10000
+					}
+				},
+				"fort": {
+					"name": "Вежа",
+					"description": "Невысокая бревенчатая вежа смотрит на болото и дорогу. Вежа даёт городу оборонительные стены.",
+					"cost": {
+						"wood": 20,
+						"ore": 20,
+						"gold": 5000
+					}
+				},
+				"citadel": {
+					"name": "Сторожевая вежа",
+					"description": "Вежа выше, а у подножия добавлен частокол и ров. Сторожевая вежа добавляет оборону и увеличивает прирост существ на 50%.",
+					"cost": {
+						"ore": 5,
+						"gold": 2500
+					}
+				},
+				"castle": {
+					"name": "Острог",
+					"description": "Острог из дубовых брёвен с двумя башнями и рвом: взять его трудно, а выйти из него легко. Острог добавляет две башни, укрепляет оборону и удваивает базовый прирост существ.",
+					"cost": {
+						"wood": 10,
+						"ore": 10,
+						"gold": 5000
+					}
+				},
+				"tavern": {
+					"name": "Корчма на распутье",
+					"description": "Кривая корчма на перекрёстке, в окнах свет, за столами странные гости. В корчме можно нанимать героев, а защитники города получают бодрость. Корчма повышает боевой дух защитников города.",
+					"cost": {
+						"wood": 5,
+						"gold": 500
+					}
+				},
+				"blacksmith": {
+					"name": "Чёрная кузня",
+					"description": "Кузня, где жгут уголь и болотную руду, а молот не замолкает до рассвета. Чёрная кузня даёт армии палатки первой помощи.",
+					"cost": {
+						"wood": 5,
+						"gold": 1000
+					},
+					"warMachine": "firstAidTent"
+				},
+				"marketplace": {
+					"name": "Торжище",
+					"description": "Торжище полно мехов, мёда, воска, трав и железных мелочей. На Торжище можно покупать и продавать ресурсы.",
+					"cost": {
+						"wood": 5,
+						"gold": 500
+					}
+				},
+				"resourceSilo": {
+					"name": "Болотная копь",
+					"description": "Яма, откуда достают болотную руду, а ржавая вода стекает в ручей. Болотная копь приносит +1 руду каждый день.",
+					"cost": {
+						"wood": 5,
+						"gold": 5000
+					},
+					"produce": {
+						"ore": 1
+					}
+				},
+				"shipyard": {
+					"name": "Лодочная пристань",
+					"description": "Мостки и причал на чёрной воде, где смолят лодки. На пристани строят лодки.",
+					"cost": {
+						"wood": 20,
+						"gold": 2000
+					}
+				},
+				"special1": {
+					"name": "Алатырь-камень",
+					"description": "Огромный серый камень, у которого оставляют ленты и хлеб для духов. Подношения у Алатырь-камня радуют духов: +1 к боевому духу армии в городе.",
+					"cost": {
+						"ore": 5,
+						"gold": 2500
+					},
+					"bonuses": [
+						{
+							"type": "MORALE",
+							"val": 1,
+							"propagator": "TOWN_AND_VISITOR"
+						}
+					]
+				},
+				"special2": {
+					"name": "Курганы предков",
+					"description": "Древние курганы на холме и каменная арка между мирами. Курганы предков позволяют герою мгновенно переместиться в другой свой город.",
+					"cost": {
+						"gold": 3000
+					},
+					"type": "castleGate",
+					"requires": [
+						"citadel"
+					]
+				},
+				"grail": {
+					"name": "Лик Чернобога",
+					"description": "Каменное лицо Чернобога смотрит из скалы пустыми глазами, и люди боятся поднимать взгляд. Каменный Лик Чернобога увеличивает недельный прирост существ на 50% и приносит 5000 золота в день.",
+					"mode": "grail"
+				},
+				"dwellingLvl1": {
+					"name": "Двор Злыдней",
+					"description": "Брошенный двор с полуразрушенной печью, где селятся злыдни. Двор Злыдней позволяет нанимать: Злыдней.",
+					"cost": {
+						"gold": 400,
+						"wood": 5,
+						"ore": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						]
+					]
+				},
+				"dwellingUpLvl1": {
+					"name": "Кривой двор",
+					"description": "Над печью поставили кривой навес, и злыдни стали злее. Кривой двор позволяет нанимать: Старших злыдней.",
+					"cost": {
+						"gold": 1000
+					},
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						]
+					],
+					"upgrades": "dwellingLvl1"
+				},
+				"dwellingLvl2": {
+					"name": "Омут",
+					"description": "Глубокий омут в чёрной воде, на берегу стоят кривые избушки. Омут позволяет нанимать: Болотников.",
+					"cost": {
+						"gold": 1000,
+						"ore": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"fort"
+						]
+					]
+				},
+				"dwellingUpLvl2": {
+					"name": "Хозяйский омут",
+					"description": "Избушки окружили омут, а на берегу стоит трон хозяина вод. Хозяйский омут позволяет нанимать: Водяных.",
+					"cost": {
+						"gold": 1500
+					},
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						]
+					],
+					"upgrades": "dwellingLvl2"
+				},
+				"dwellingLvl3": {
+					"name": "Волчий лог",
+					"description": "Берлога между корнями старых деревьев, вокруг кости и шкуры. Волчий лог позволяет нанимать: Волколаков.",
+					"cost": {
+						"gold": 1500,
+						"wood": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl1"
+						],
+						[
+							"fort"
+						]
+					]
+				},
+				"dwellingUpLvl3": {
+					"name": "Лог стаи",
+					"description": "Лог обнесён кольями и охотничьими тотемами. Лог стаи позволяет нанимать: Старших волколаков.",
+					"cost": {
+						"gold": 1500
+					},
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						]
+					],
+					"upgrades": "dwellingLvl3"
+				},
+				"dwellingLvl4": {
+					"name": "Священная роща",
+					"description": "Тёмная роща, где деревья срослись в стены, а между корнями стоят идолы. Священная роща позволяет нанимать: Леших.",
+					"cost": {
+						"gold": 2500,
+						"gems": 4
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl2"
+						],
+						[
+							"fort"
+						]
+					]
+				},
+				"dwellingUpLvl4": {
+					"name": "Сердце чащи",
+					"description": "В середине рощи вырос огромный дуб, и лес выглядит живым. Сердце чащи позволяет нанимать: Старших леших.",
+					"cost": {
+						"gold": 2500,
+						"gems": 4
+					},
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						]
+					],
+					"upgrades": "dwellingLvl4"
+				},
+				"dwellingLvl5": {
+					"name": "Круг волхвов",
+					"description": "Деревянное святилище с площадкой под открытым небом и резными столбами. Круг волхвов позволяет нанимать: Волхвов.",
+					"cost": {
+						"gold": 3000
+					},
+					"requires": [
+						"allOf",
+						[
+							"dwellingLvl4"
+						],
+						[
+							"fort"
+						]
+					]
+				},
+				"dwellingUpLvl5": {
+					"name": "Великий круг",
+					"description": "Святилище разрослось, появился каменный алтарь и новые столбы. Великий круг позволяет нанимать: Старших волхвов.",
+					"cost": {
+						"gold": 3000,
+						"ore": 5,
+						"gems": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						]
+					],
+					"upgrades": "dwellingLvl5"
+				},
+				"dwellingLvl6": {
+					"name": "Ведьмина изба",
+					"description": "Одинокая избушка на краю леса, вокруг сушёные травы, кости и обереги. Ведьмина изба позволяет нанимать: Ведьм.",
+					"cost": {
+						"gold": 4000,
+						"ore": 10,
+						"crystal": 4
+					},
+					"requires": [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"dwellingLvl4"
+						]
+					]
+				},
+				"dwellingUpLvl6": {
+					"name": "Избушка на курьих ножках",
+					"description": "Огромная избушка на куриных ногах, которая ходит и дерётся. Избушка на курьих ножках позволяет нанимать: Бабу-ягу.",
+					"cost": {
+						"gold": 3000,
+						"ore": 10,
+						"gems": 5
+					},
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						]
+					],
+					"upgrades": "dwellingLvl6"
+				},
+				"dwellingLvl7": {
+					"name": "Провал Вия",
+					"description": "Отвесная скала с каменной дверью, похожей на закрытое веко. Провал Вия позволяет нанимать: Виев.",
+					"cost": {
+						"gold": 10000,
+						"ore": 10,
+						"gems": 15
+					},
+					"requires": [
+						"allOf",
+						[
+							"mageGuild1"
+						],
+						[
+							"dwellingLvl5"
+						]
+					]
+				},
+				"dwellingUpLvl7": {
+					"name": "Чертог Пробуждённого Вия",
+					"description": "Чертог открыл каменное веко наполовину, и внутри виден свет. Чертог Пробуждённого Вия позволяет нанимать: Пробуждённых Виев.",
+					"cost": {
+						"gold": 10000,
+						"ore": 10,
+						"gems": 20
+					},
+					"requires": [
+						"allOf",
+						[
+							"fort"
+						]
+					],
+					"upgrades": "dwellingLvl7"
+				}
+			},
+			"structures": {
+				"mageGuild1": {
+					"animation": "town/mageGuild1",
+					"area": "town-screen/buildings-area/mageGuild1",
+					"border": "town-screen/buildings-border/mageGuild1",
+					"x": 326,
+					"y": 154,
+					"z": 19
+				},
+				"mageGuild2": {
+					"animation": "town/mageGuild2",
+					"area": "town-screen/buildings-area/mageGuild2",
+					"border": "town-screen/buildings-border/mageGuild2",
+					"x": 332,
+					"y": 127,
+					"z": 20
+				},
+				"mageGuild3": {
+					"animation": "town/mageGuild3",
+					"area": "town-screen/buildings-area/mageGuild3",
+					"border": "town-screen/buildings-border/mageGuild3",
+					"x": 328,
+					"y": 110,
+					"z": 20
+				},
+				"mageGuild4": {
+					"animation": "town/mageGuild4",
+					"area": "town-screen/buildings-area/mageGuild4",
+					"border": "town-screen/buildings-border/mageGuild4",
+					"x": 325,
+					"y": 125,
+					"z": 20
+				},
+				"mageGuild5": {
+					"animation": "town/mageGuild5",
+					"area": "town-screen/buildings-area/mageGuild5",
+					"border": "town-screen/buildings-border/mageGuild5",
+					"x": 325,
+					"y": 105,
+					"z": 20
+				},
+				"villageHall": {
+					"animation": "town/villageHall",
+					"area": "town-screen/buildings-area/villageHall",
+					"border": "town-screen/buildings-border/villageHall",
+					"x": 235,
+					"y": 199,
+					"z": 23
+				},
+				"townHall": {
+					"animation": "town/townHall",
+					"area": "town-screen/buildings-area/townHall",
+					"border": "town-screen/buildings-border/townHall",
+					"x": 223,
+					"y": 179,
+					"z": 24
+				},
+				"cityHall": {
+					"animation": "town/cityHall",
+					"area": "town-screen/buildings-area/cityHall",
+					"border": "town-screen/buildings-border/cityHall",
+					"x": 219,
+					"y": 183,
+					"z": 24
+				},
+				"capitol": {
+					"animation": "town/capitol",
+					"area": "town-screen/buildings-area/capitol",
+					"border": "town-screen/buildings-border/capitol",
+					"x": 219,
+					"y": 165,
+					"z": 24
+				},
+				"fort": {
+					"animation": "town/fort",
+					"area": "town-screen/buildings-area/fort",
+					"border": "town-screen/buildings-border/fort",
+					"x": 263,
+					"y": 93,
+					"z": 15
+				},
+				"citadel": {
+					"animation": "town/citadel",
+					"area": "town-screen/buildings-area/citadel",
+					"border": "town-screen/buildings-border/citadel",
+					"x": 243,
+					"y": 89,
+					"z": 16
+				},
+				"castle": {
+					"animation": "town/castle",
+					"area": "town-screen/buildings-area/castle",
+					"border": "town-screen/buildings-border/castle",
+					"x": 202,
+					"y": 89,
+					"z": 16
+				},
+				"tavern": {
+					"animation": "town/tavern",
+					"area": "town-screen/buildings-area/tavern",
+					"border": "town-screen/buildings-border/tavern",
+					"x": 368,
+					"y": 156,
+					"z": 20
+				},
+				"blacksmith": {
+					"animation": "town/blacksmith",
+					"area": "town-screen/buildings-area/blacksmith",
+					"border": "town-screen/buildings-border/blacksmith",
+					"x": 149,
+					"y": 152,
+					"z": 20
+				},
+				"marketplace": {
+					"animation": "town/marketplace",
+					"area": "town-screen/buildings-area/marketplace",
+					"border": "town-screen/buildings-border/marketplace",
+					"x": 437,
+					"y": 179,
+					"z": 22
+				},
+				"resourceSilo": {
+					"animation": "town/resourceSilo",
+					"area": "town-screen/buildings-area/resourceSilo",
+					"border": "town-screen/buildings-border/resourceSilo",
+					"x": 27,
+					"y": 205,
+					"z": 25
+				},
+				"shipyard": {
+					"animation": "town/shipyard",
+					"area": "town-screen/buildings-area/shipyard",
+					"border": "town-screen/buildings-border/shipyard",
+					"x": 648,
+					"y": 256,
+					"z": 33
+				},
+				"special1": {
+					"animation": "town/special1",
+					"area": "town-screen/buildings-area/special1",
+					"border": "town-screen/buildings-border/special1",
+					"x": 169,
+					"y": 201,
+					"z": 24
+				},
+				"special2": {
+					"animation": "town/special2",
+					"area": "town-screen/buildings-area/special2",
+					"border": "town-screen/buildings-border/special2",
+					"x": 29,
+					"y": 131,
+					"z": 17
+				},
+				"grail": {
+					"animation": "town/grail",
+					"area": "town-screen/buildings-area/grail",
+					"border": "town-screen/buildings-border/grail",
+					"x": 529,
+					"y": 0,
+					"z": 7
+				},
+				"dwellingLvl1": {
+					"animation": "town/dwellingLvl1",
+					"area": "town-screen/buildings-area/dwellingLvl1",
+					"border": "town-screen/buildings-border/dwellingLvl1",
+					"x": 505,
+					"y": 183,
+					"z": 23
+				},
+				"dwellingUpLvl1": {
+					"animation": "town/dwellingUpLvl1",
+					"area": "town-screen/buildings-area/dwellingUpLvl1",
+					"border": "town-screen/buildings-border/dwellingUpLvl1",
+					"x": 504,
+					"y": 176,
+					"z": 24
+				},
+				"dwellingLvl2": {
+					"animation": "town/dwellingLvl2",
+					"area": "town-screen/buildings-area/dwellingLvl2",
+					"border": "town-screen/buildings-border/dwellingLvl2",
+					"x": 333,
+					"y": 298,
+					"z": 34
+				},
+				"dwellingUpLvl2": {
+					"animation": "town/dwellingUpLvl2",
+					"area": "town-screen/buildings-area/dwellingUpLvl2",
+					"border": "town-screen/buildings-border/dwellingUpLvl2",
+					"x": 271,
+					"y": 251,
+					"z": 35
+				},
+				"dwellingLvl3": {
+					"animation": "town/dwellingLvl3",
+					"area": "town-screen/buildings-area/dwellingLvl3",
+					"border": "town-screen/buildings-border/dwellingLvl3",
+					"x": 504,
+					"y": 117,
+					"z": 20
+				},
+				"dwellingUpLvl3": {
+					"animation": "town/dwellingUpLvl3",
+					"area": "town-screen/buildings-area/dwellingUpLvl3",
+					"border": "town-screen/buildings-border/dwellingUpLvl3",
+					"x": 496,
+					"y": 117,
+					"z": 21
+				},
+				"dwellingLvl4": {
+					"animation": "town/dwellingLvl4",
+					"area": "town-screen/buildings-area/dwellingLvl4",
+					"border": "town-screen/buildings-border/dwellingLvl4",
+					"x": 642,
+					"y": 111,
+					"z": 23
+				},
+				"dwellingUpLvl4": {
+					"animation": "town/dwellingUpLvl4",
+					"area": "town-screen/buildings-area/dwellingUpLvl4",
+					"border": "town-screen/buildings-border/dwellingUpLvl4",
+					"x": 640,
+					"y": 105,
+					"z": 24
+				},
+				"dwellingLvl5": {
+					"animation": "town/dwellingLvl5",
+					"area": "town-screen/buildings-area/dwellingLvl5",
+					"border": "town-screen/buildings-border/dwellingLvl5",
+					"x": 42,
+					"y": 94,
+					"z": 11
+				},
+				"dwellingUpLvl5": {
+					"animation": "town/dwellingUpLvl5",
+					"area": "town-screen/buildings-area/dwellingUpLvl5",
+					"border": "town-screen/buildings-border/dwellingUpLvl5",
+					"x": 40,
+					"y": 88,
+					"z": 12
+				},
+				"dwellingLvl6": {
+					"animation": "town/dwellingLvl6",
+					"area": "town-screen/buildings-area/dwellingLvl6",
+					"border": "town-screen/buildings-border/dwellingLvl6",
+					"x": 145,
+					"y": 89,
+					"z": 12
+				},
+				"dwellingUpLvl6": {
+					"animation": "town/dwellingUpLvl6",
+					"area": "town-screen/buildings-area/dwellingUpLvl6",
+					"border": "town-screen/buildings-border/dwellingUpLvl6",
+					"x": 140,
+					"y": 56,
+					"z": 13
+				},
+				"dwellingLvl7": {
+					"animation": "town/dwellingLvl7",
+					"area": "town-screen/buildings-area/dwellingLvl7",
+					"border": "town-screen/buildings-border/dwellingLvl7",
+					"x": 661,
+					"y": 24,
+					"z": 10
+				},
+				"dwellingUpLvl7": {
+					"animation": "town/dwellingUpLvl7",
+					"area": "town-screen/buildings-area/dwellingUpLvl7",
+					"border": "town-screen/buildings-border/dwellingUpLvl7",
+					"x": 661,
+					"y": 24,
+					"z": 11
+				}
+			},
+			"townBackground": "town-screen/background.png",
+			"mapObject": {
+				"templates": {
+					"village": {
+						"animation": "town/map-village"
+					},
+					"castle": {
+						"animation": "town/map-castle"
+					},
+					"capitol": {
+						"animation": "town/map-capitol"
+					}
+				}
+			},
+			"tavernVideo": "TAVERN.BIK",
+			"guildBackground": [
+				"town-screen/guild-bg.png"
+			],
+			"guildWindow": [
+				"town-screen/guild-window-empty.png"
+			],
+			"buildingsIcons": "hallicons",
+			"hallBackground": "town-screen/hall-bg.png",
+			"guildSpellPositions": [
+				[
+					{
+						"x": 222,
+						"y": 445
+					},
+					{
+						"x": 312,
+						"y": 445
+					},
+					{
+						"x": 402,
+						"y": 445
+					},
+					{
+						"x": 520,
+						"y": 445
+					},
+					{
+						"x": 610,
+						"y": 445
+					},
+					{
+						"x": 700,
+						"y": 445
+					}
+				],
+				[
+					{
+						"x": 48,
+						"y": 53
+					},
+					{
+						"x": 48,
+						"y": 147
+					},
+					{
+						"x": 48,
+						"y": 241
+					},
+					{
+						"x": 48,
+						"y": 335
+					},
+					{
+						"x": 48,
+						"y": 429
+					}
+				],
+				[
+					{
+						"x": 570,
+						"y": 82
+					},
+					{
+						"x": 672,
+						"y": 82
+					},
+					{
+						"x": 570,
+						"y": 157
+					},
+					{
+						"x": 672,
+						"y": 157
+					}
+				],
+				[
+					{
+						"x": 183,
+						"y": 42
+					},
+					{
+						"x": 183,
+						"y": 148
+					},
+					{
+						"x": 183,
+						"y": 253
+					}
+				],
+				[
+					{
+						"x": 330,
+						"y": 40
+					},
+					{
+						"x": 430,
+						"y": 40
+					}
+				]
+			],
+			"guildWindowPosition": {
+				"x": 332,
+				"y": 76
+			},
+			"moatAbility": "fortressMoat",
+			"siege": {
+				"shooter": "volkhv",
+				"imagePrefix": "SGFR",
+				"gate": {
+					"arch": {
+						"x": 483,
+						"y": 236
+					},
+					"gate": {
+						"x": 392,
+						"y": 253
+					}
+				},
+				"moat": {
+					"bank": {
+						"x": 376,
+						"y": 70
+					},
+					"moat": {
+						"x": 383,
+						"y": 95
+					}
+				},
+				"static": {
+					"background": {
+						"x": 599,
+						"y": 62
+					},
+					"bottom": {
+						"x": 522,
+						"y": 382
+					},
+					"top": {
+						"x": 508,
+						"y": 130
+					}
+				},
+				"towers": {
+					"bottom": {
+						"battlement": {
+							"x": 599,
+							"y": 505
+						},
+						"creature": {
+							"x": 372,
+							"y": 308
+						},
+						"tower": {
+							"x": 599,
+							"y": 505
+						}
+					},
+					"keep": {
+						"battlement": {
+							"x": 721,
+							"y": 178
+						},
+						"creature": {
+							"x": 541,
+							"y": -37
+						},
+						"tower": {
+							"x": 721,
+							"y": 178
+						}
+					},
+					"top": {
+						"battlement": {
+							"x": 548,
+							"y": 27
+						},
+						"creature": {
+							"x": 326,
+							"y": -182
+						},
+						"tower": {
+							"x": 548,
+							"y": 27
+						}
+					}
+				},
+				"walls": {
+					"bottom": {
+						"x": 546,
+						"y": 441
+					},
+					"bottomMid": {
+						"x": 486,
+						"y": 306
+					},
+					"upper": {
+						"x": 526,
+						"y": 80
+					},
+					"upperMid": {
+						"x": 498,
+						"y": 184
+					}
+				},
+				"towerIconLarge": "town-screen/icons/tower-large.png",
+				"towerIconSmall": "town-screen/icons/tower-small.png"
+			},
+			"icons": {
+				"village": {
+					"normal": {
+						"small": "town-screen/icons/village-normal-small.png",
+						"large": "town-screen/icons/village-normal-large.png"
+					},
+					"built": {
+						"small": "town-screen/icons/village-built-small.png",
+						"large": "town-screen/icons/village-built-large.png"
+					}
+				},
+				"fort": {
+					"normal": {
+						"small": "town-screen/icons/fort-normal-small.png",
+						"large": "town-screen/icons/fort-normal-large.png"
+					},
+					"built": {
+						"small": "town-screen/icons/fort-built-small.png",
+						"large": "town-screen/icons/fort-built-large.png"
+					}
+				}
+			},
+			"guildSpells": {
+				"magicArrow": 15,
+				"iceBolt": 15,
+				"lightningBolt": 15,
+				"implosion": 15,
+				"chainLightning": 15,
+				"frostRing": 15,
+				"fireball": 15,
+				"inferno": 15,
+				"meteorShower": 15,
+				"deathRipple": 15,
+				"destroyUndead": 15,
+				"armageddon": 15,
+				"titanBolt": 15,
+				"summonBoat": 15,
+				"scuttleBoat": 15,
+				"visions": 15,
+				"viewEarth": 15,
+				"disguise": 15,
+				"viewAir": 15,
+				"fly": 15,
+				"waterWalk": 15,
+				"dimensionDoor": 15,
+				"townPortal": 15,
+				"shield": 15,
+				"airShield": 15,
+				"fireShield": 15,
+				"protectAir": 15,
+				"protectFire": 15,
+				"protectWater": 15,
+				"protectEarth": 15,
+				"antiMagic": 15,
+				"magicMirror": 15,
+				"bless": 15,
+				"curse": 15,
+				"bloodlust": 15,
+				"precision": 15,
+				"weakness": 15,
+				"stoneSkin": 15,
+				"disruptingRay": 15,
+				"prayer": 15,
+				"mirth": 15,
+				"sorrow": 15,
+				"fortune": 15,
+				"misfortune": 15,
+				"haste": 15,
+				"slow": 15,
+				"slayer": 15,
+				"frenzy": 15,
+				"counterstrike": 15,
+				"berserk": 15,
+				"hypnotize": 15,
+				"forgetfulness": 15,
+				"blind": 15,
+				"quicksand": 15,
+				"landMine": 15,
+				"forceField": 15,
+				"fireWallTrigger": 15,
+				"fireWall": 15,
+				"earthquake": 15,
+				"dispel": 15,
+				"cure": 15,
+				"resurrection": 15,
+				"animateDead": 15,
+				"sacrifice": 15,
+				"teleport": 15,
+				"removeObstacle": 15,
+				"clone": 15,
+				"fireElemental": 15,
+				"earthElemental": 15,
+				"waterElemental": 15,
+				"airElemental": 15
+			}
+		},
+		"creatureBackground": {
+			"120px": "town-screen/creature-bg-120px.png",
+			"130px": "town-screen/creature-bg-130px.png"
+		},
+		"boat": "boatFortress",
+		"puzzleMap": {
+			"prefix": "PUZFOR",
+			"pieces": [
+				{
+					"x": 7,
+					"y": 8,
+					"index": 36
+				},
+				{
+					"x": 7,
+					"y": 152,
+					"index": 25
+				},
+				{
+					"x": 7,
+					"y": 306,
+					"index": 34
+				},
+				{
+					"x": 7,
+					"y": 388,
+					"index": 23
+				},
+				{
+					"x": 7,
+					"y": 434,
+					"index": 15
+				},
+				{
+					"x": 23,
+					"y": 417,
+					"index": 37
+				},
+				{
+					"x": 32,
+					"y": 232,
+					"index": 38
+				},
+				{
+					"x": 42,
+					"y": 137,
+					"index": 39
+				},
+				{
+					"x": 47,
+					"y": 440,
+					"index": 8
+				},
+				{
+					"x": 56,
+					"y": 19,
+					"index": 47
+				},
+				{
+					"x": 71,
+					"y": 8,
+					"index": 1
+				},
+				{
+					"x": 87,
+					"y": 219,
+					"index": 30
+				},
+				{
+					"x": 90,
+					"y": 26,
+					"index": 41
+				},
+				{
+					"x": 104,
+					"y": 397,
+					"index": 33
+				},
+				{
+					"x": 116,
+					"y": 345,
+					"index": 40
+				},
+				{
+					"x": 134,
+					"y": 215,
+					"index": 11
+				},
+				{
+					"x": 175,
+					"y": 168,
+					"index": 19
+				},
+				{
+					"x": 191,
+					"y": 428,
+					"index": 13
+				},
+				{
+					"x": 200,
+					"y": 326,
+					"index": 24
+				},
+				{
+					"x": 216,
+					"y": 98,
+					"index": 18
+				},
+				{
+					"x": 221,
+					"y": 398,
+					"index": 20
+				},
+				{
+					"x": 225,
+					"y": 235,
+					"index": 46
+				},
+				{
+					"x": 239,
+					"y": 8,
+					"index": 9
+				},
+				{
+					"x": 245,
+					"y": 40,
+					"index": 7
+				},
+				{
+					"x": 248,
+					"y": 208,
+					"index": 48
+				},
+				{
+					"x": 261,
+					"y": 439,
+					"index": 5
+				},
+				{
+					"x": 262,
+					"y": 134,
+					"index": 26
+				},
+				{
+					"x": 297,
+					"y": 352,
+					"index": 22
+				},
+				{
+					"x": 309,
+					"y": 99,
+					"index": 16
+				},
+				{
+					"x": 320,
+					"y": 262,
+					"index": 43
+				},
+				{
+					"x": 323,
+					"y": 404,
+					"index": 10
+				},
+				{
+					"x": 326,
+					"y": 200,
+					"index": 45
+				},
+				{
+					"x": 331,
+					"y": 20,
+					"index": 17
+				},
+				{
+					"x": 345,
+					"y": 178,
+					"index": 21
+				},
+				{
+					"x": 353,
+					"y": 8,
+					"index": 3
+				},
+				{
+					"x": 358,
+					"y": 290,
+					"index": 42
+				},
+				{
+					"x": 381,
+					"y": 399,
+					"index": 14
+				},
+				{
+					"x": 400,
+					"y": 65,
+					"index": 12
+				},
+				{
+					"x": 428,
+					"y": 160,
+					"index": 35
+				},
+				{
+					"x": 448,
+					"y": 293,
+					"index": 29
+				},
+				{
+					"x": 451,
+					"y": 94,
+					"index": 27
+				},
+				{
+					"x": 453,
+					"y": 424,
+					"index": 2
+				},
+				{
+					"x": 462,
+					"y": 397,
+					"index": 32
+				},
+				{
+					"x": 465,
+					"y": 8,
+					"index": 4
+				},
+				{
+					"x": 486,
+					"y": 163,
+					"index": 44
+				},
+				{
+					"x": 492,
+					"y": 184,
+					"index": 31
+				},
+				{
+					"x": 517,
+					"y": 304,
+					"index": 6
+				},
+				{
+					"x": 549,
+					"y": 8,
+					"index": 28
+				}
+			]
+		}
+	}
+}

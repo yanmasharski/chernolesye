@@ -1,0 +1,29 @@
+{
+	"basepath": "creatures/map/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"leshij.png"
+			]
+		},
+		{
+			"group": 1,
+			"frames": [
+				"leshij.png"
+			]
+		},
+		{
+			"group": 2,
+			"frames": [
+				"leshij.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"leshij.png"
+			]
+		}
+	]
+}

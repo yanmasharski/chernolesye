@@ -1,0 +1,29 @@
+{
+	"basepath": "creatures/map/",
+	"sequences": [
+		{
+			"group": 0,
+			"frames": [
+				"vij.png"
+			]
+		},
+		{
+			"group": 1,
+			"frames": [
+				"vij.png"
+			]
+		},
+		{
+			"group": 2,
+			"frames": [
+				"vij.png"
+			]
+		},
+		{
+			"group": 3,
+			"frames": [
+				"vij.png"
+			]
+		}
+	]
+}

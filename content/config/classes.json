@@ -1,0 +1,144 @@
+{
+	"lovchij": {
+		"name": "Ловчий",
+		"faction": "chernolesye",
+		"affinity": "might",
+		"commander": "zlydenj",
+		"primarySkills": {
+			"attack": 2,
+			"defence": 1,
+			"spellpower": 2,
+			"knowledge": 1
+		},
+		"lowLevelChance": {
+			"attack": 43,
+			"defence": 25,
+			"spellpower": 22,
+			"knowledge": 10
+		},
+		"highLevelChance": {
+			"attack": 30,
+			"defence": 23,
+			"spellpower": 27,
+			"knowledge": 20
+		},
+		"secondarySkills": {
+			"pathfinding": 6,
+			"archery": 7,
+			"logistics": 5,
+			"scouting": 7,
+			"diplomacy": 3,
+			"navigation": 2,
+			"leadership": 6,
+			"wisdom": 2,
+			"mysticism": 2,
+			"luck": 4,
+			"ballistics": 3,
+			"eagleEye": 2,
+			"necromancy": 0,
+			"estates": 4,
+			"fireMagic": 1,
+			"airMagic": 1,
+			"waterMagic": 2,
+			"earthMagic": 2,
+			"scholar": 1,
+			"tactics": 5,
+			"artillery": 3,
+			"learning": 3,
+			"offence": 8,
+			"armorer": 5,
+			"intelligence": 1,
+			"sorcery": 2,
+			"resistance": 4,
+			"firstAid": 3
+		},
+		"defaultTavern": 5,
+		"tavern": {
+			"chernolesye": 6
+		},
+		"mapObject": {
+			"templates": {
+				"default": {
+					"animation": "AH14_.def", "editorAnimation": "AH14_E.def"
+				}
+			}
+		},
+		"animation": {
+			"battle": {
+				"male": "CH014.DEF",
+				"female": "CH015.DEF"
+			}
+		}
+	},
+	"vedun": {
+		"name": "Ведун",
+		"faction": "chernolesye",
+		"affinity": "magic",
+		"commander": "zlydenj",
+		"primarySkills": {
+			"attack": 1,
+			"defence": 0,
+			"spellpower": 2,
+			"knowledge": 2
+		},
+		"lowLevelChance": {
+			"attack": 30,
+			"defence": 10,
+			"spellpower": 40,
+			"knowledge": 20
+		},
+		"highLevelChance": {
+			"attack": 20,
+			"defence": 23,
+			"spellpower": 30,
+			"knowledge": 27
+		},
+		"secondarySkills": {
+			"pathfinding": 1,
+			"archery": 1,
+			"logistics": 3,
+			"scouting": 3,
+			"diplomacy": 3,
+			"navigation": 2,
+			"leadership": 2,
+			"wisdom": 9,
+			"mysticism": 8,
+			"luck": 4,
+			"ballistics": 2,
+			"eagleEye": 3,
+			"necromancy": 0,
+			"estates": 4,
+			"fireMagic": 3,
+			"airMagic": 3,
+			"waterMagic": 6,
+			"earthMagic": 7,
+			"scholar": 6,
+			"tactics": 2,
+			"artillery": 2,
+			"learning": 4,
+			"offence": 2,
+			"armorer": 2,
+			"intelligence": 6,
+			"sorcery": 6,
+			"resistance": 2,
+			"firstAid": 6
+		},
+		"defaultTavern": 5,
+		"tavern": {
+			"chernolesye": 6
+		},
+		"mapObject": {
+			"templates": {
+				"default": {
+					"animation": "AH11_.def", "editorAnimation": "AH11_E.def"
+				}
+			}
+		},
+		"animation": {
+			"battle": {
+				"male": "CH010.DEF",
+				"female": "CH11.DEF"
+			}
+		}
+	}
+}
