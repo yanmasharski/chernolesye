@@ -53,6 +53,15 @@ Copy this folder into the VCMI `Mods` folder and name it `chernolesye`.
 
 Then enable **Chernolesye** in the VCMI Launcher.
 
+## Install from the VCMI Launcher (extra repository)
+
+1. In the VCMI Launcher open **Settings** and find **Repositories**.
+2. Turn on the extra repository and paste this link:
+   `https://raw.githubusercontent.com/yanmasharski/chernolesye/main/repository.json`
+3. Open the **Mods** tab, press the update button if needed, find **Chernolesye** and install it.
+
+The file [repository.json](repository.json) is the list the launcher reads. It points to the latest `main` branch.
+
 ## About VCMI
 
 VCMI is a free, open source engine for Heroes of Might and Magic III. This mod is a fan project and is not part of VCMI.

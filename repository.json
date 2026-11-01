@@ -1,0 +1,11 @@
+{
+	"chernolesye" : {
+		"mod" : "https://raw.githubusercontent.com/yanmasharski/chernolesye/main/mod.json",
+		"download" : "https://github.com/yanmasharski/chernolesye/archive/refs/heads/main.zip",
+		"downloadSize" : 11,
+		"screenshots" : [
+			"https://raw.githubusercontent.com/yanmasharski/chernolesye/main/previews/town.png",
+			"https://raw.githubusercontent.com/yanmasharski/chernolesye/main/previews/units.png"
+		]
+	}
+}
